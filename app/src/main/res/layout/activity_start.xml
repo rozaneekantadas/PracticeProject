@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textViewBugi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Staff I have completed"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/webViewShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WebView"
+            android:layout_below="@id/textViewBugi"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:onClick="clickMe"
+            />
+
+        <Button
+            android:id="@+id/popUpDialogShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pop Up Dialog Show"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/webViewShow"
+            android:layout_marginTop="5dp"
+            android:onClick="clickMe"
+            />
+
+        <Button
+            android:id="@+id/progressBarShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progress Bar"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/popUpDialogShow"
+            android:layout_marginTop="5dp"
+            android:onClick="clickMe"
+            />
+
+        <Button
+            android:id="@+id/checkboxShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Box"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/progressBarShow"
+            android:layout_marginTop="5dp"
+            android:onClick="clickMe"
+            />
+
+        <Button
+            android:id="@+id/radioButtonShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radio Button"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/checkboxShow"
+            android:layout_marginTop="5dp"
+            android:onClick="clickMe"
+            />
+
+        <Button
+            android:id="@+id/snackbarShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snack Bar"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/radioButtonShow"
+            android:layout_marginTop="5dp"
+            android:onClick="clickMe"
+            />
+
+        <Button
+            android:id="@+id/emailShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Send"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/snackbarShow"
+            android:layout_marginTop="5dp"
+            android:onClick="clickMe"
+            />
+
+        <Button
+            android:id="@+id/phoneCallShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Call"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/emailShow"
+            android:layout_marginTop="5dp"
+            android:onClick="clickMe"
+            />
+
+        <Button
+            android:id="@+id/smsSendShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMS Send"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/phoneCallShow"
+            android:layout_marginTop="5dp"
+            android:onClick="clickMe"
+            />
+
+        <Button
+            android:id="@+id/imageCaptureUsingCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capture Image"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/smsSendShow"
+            android:layout_marginTop="5dp"
+            android:onClick="clickMe"
+            />
+
+        <Button
+            android:id="@+id/sharedPreferancesTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SharedPreference"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/imageCaptureUsingCamera"
+            android:layout_marginTop="5dp"
+            android:onClick="clickMe"
+            />
+
+        <Button
+            android:id="@+id/musicPlayerOpen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music Player"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/sharedPreferancesTask"
+            android:layout_marginTop="5dp"
+            android:onClick="clickMe"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>
